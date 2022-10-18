@@ -83,7 +83,7 @@ a {
 }
 
 .signup {
-    border: 2px solid gray;
+    border: 2px solid #b4a1a1;
     padding: 10px 20px;
     border-radius: 15px;
     background-color: #b4a1a1;
@@ -94,7 +94,7 @@ a {
 
 .signup:hover {
     background-color: #c5b8b8;
-    box-shadow: 3px 1px 5px 2px black;
+    box-shadow: 1px 1px 4px 2px black;
 }
 
 .home {
@@ -102,7 +102,7 @@ a {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     padding: 2px 20px;
-    border: 1px solid black;
+    border: 1px solid #5a7a86;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 30px;
     background-color: #5a7a86;
@@ -115,7 +115,7 @@ a {
 
 .middlenavli {
     margin: 0 28px 0 0;
-    border: 2px solid black;
+    border: 2px solid #5a7a86;
     padding: 2px 10px;
     border-radius: 10px;
     background-color: #5a7a86;
