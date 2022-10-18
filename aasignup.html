@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+* {
+    text-transform: capitalize;
+}
+
+body {
+    /* background-color: #48aaff; */
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Fitness-Desktop-Wallpaper.jpg);
+    background-size: cover;
+}
+
+.text {
+    background-color: #5bc1e9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 50px 20px 50px;
+    padding: 5px 20px;
+}
+
+.container {
+    width: 750px;
+    height: 480px;
+    background-color:  #ffffffb4;
+    margin: 100px auto;
+    text-align: center;
+    padding: 50px 20px ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.fullname {
+    margin: 20px 0;
+}
+
+.name {
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.contact {
+    margin: 20px 0;
+}
+
+.contactme {
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 100px;
+}
+
+#password {
+    /* margin: 20px 0; */
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 20px;
+}
+.gender {
+    margin: 0 auto 20px auto ;
+}
+
+input[type="button"] {
+    border-radius: 5px;
+    background-color: #00a400;
+    padding: 5px 60px;
+    margin: auto;
+    color: white;
+    border: 2px solid #00a400;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #33bd33;
+}
+
+#dob {
+    margin: 20px 0;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>sign up</h1>
+            <h2>it's quick and easy</h2>
+        </div>
+        <hr>
+        <form action="#php">
+            <div class="fullname">
+                <input class="name" type="text" id="fname" placeholder="*first name" required>
+                <input class="name" type="text" id="lname" placeholder="*surname" required>
+            </div>
+            <div class="contact">
+                <input class="contactme" type="number" max="9999999999" min="6000000000" required placeholder="*phone number">
+                <!-- <input class="contactme" type="email" name="email" id="email" placeholder="email id"> -->
+            </div>
+            <div class="password">
+                <input type="password" name="password" id="password" placeholder="*choose password" required>
+            </div>
+            <div class="dob">
+                <label for="dob">*d.o.b :-</label>
+                <input type="date" name="date-of-birth" id="dob" required>
+            </div>
+            <div class="gender">
+                <label for="">gender:-</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">female</label>
+                <input type="radio" name="gender" id="custom">
+                <label for="custom">custom</label>
+            </div>
+            <hr>
+            <div class="para">
+                <p>--) T&C :-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate culpa voluptates aspernatur ab voluptas reprehenderit quia, quod illo tempora ratione pariatur delectus itaque accusamus magni iusto quaerat quo accusantium laborum?</p>
+                <br>
+                <p>--) NOTE: all * marks are mandatory so please fill those</p>
+            </div>
+            <hr>
+            <div class="signup">
+                <input type="button" value="sign up">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
