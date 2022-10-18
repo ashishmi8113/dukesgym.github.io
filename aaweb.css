@@ -111,6 +111,7 @@ a {
 
 .home:hover {
     background-color: #b4a1a1;
+    border: 2px solid #b4a1a1;
 }
 
 .middlenavli {
@@ -124,6 +125,7 @@ a {
 
 .middlenavli:hover {
     background-color: #b4a1a1;
+    border: 2px solid #b4a1a1;
 }
 
 /* .cool p {
